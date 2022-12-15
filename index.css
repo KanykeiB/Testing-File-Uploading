@@ -1,0 +1,44 @@
+.edit{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px #e2d5de solid;
+    background-color:#e2d5de ;
+    color: #0d6efd;
+    border-radius: 5px;
+}
+.delete{
+    border: 1px #e2d5de solid;
+    background-color:#e2d5de ;
+    color: brown;
+    border-radius: 5px;
+}
+.divItem{
+    display: flex;
+    justify-content: space-between;
+}
+.divBtn{
+    display: flex;
+    align-items: center;
+}
+.clear{
+    display:none;
+    border: 1px #e2d5de solid;
+    background-color: #e2d5de;
+    border-radius: 5px;
+}
+.success{
+    background-color: #D4EFDF;
+    color: #145A32;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    margin: 20px;
+}
+.error{
+    background-color: #F9EBEA;
+    color: #641E16;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    margin: 20px;
+}
